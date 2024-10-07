@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8B0000;
+    padding: 15px;
+    color: white;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.wine-details {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.wine-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.wine-info, .wine-sensory, .wine-reviews, .wine-dictionary, .related-wines {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wine-info h2, .wine-sensory h2, .wine-reviews h2, .wine-dictionary h2, .related-wines h2 {
+    color: #8B0000;
+    margin-bottom: 10px;
+}
+
+.wine-reviews .review {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+ button {
+    background-color: #8B0000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ button:hover {
+    background-color: #b22222;
+}
+
+.wine-dictionary p, .wine-info p, .wine-sensory p {
+    margin-bottom: 10px;
+}
+
+.related-wines {
+    display: flex;
+    justify-content: space-between;
+}
+
+.related-wines .wine-card {
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.related-wines .wine-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.related-wines .wine-card h3 {
+    margin-bottom: 10px;
+    color: #8B0000;
+}
+
+.related-wines button {
+    background-color: #8B0000;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.related-wines button:hover {
+    background-color: #b22222;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    background-color: #8B0000;
+    color: white;
+    padding: 10px;
+}
+
+footer .footer-info {
+    margin-top: 10px;
+}
+.vinhos{
+    max-width: 200px;
+    max-height: 200px;
+}
